@@ -1,9 +1,10 @@
-name: ci
+name: Docker Image CI
 
 on:
   push:
-    # Publish semver tags as releases.
-    tags: [ 'v*.*.*' ]
+    branches: [ "source" ]
+  pull_request:
+    branches: [ "source" ]
 
 env:
   # Use docker.io for Docker Hub if empty
