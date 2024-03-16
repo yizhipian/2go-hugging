@@ -1,10 +1,14 @@
 name: ci
 
 on:
+  schedule:
+    - cron: '24 16 * * *'
   push:
     branches: [ "source" ]
     # Publish semver tags as releases.
     tags: [ 'v*.*.*' ]
+  pull_request:
+    branches: [ "source" ]
 
 env:
   # Use docker.io for Docker Hub if empty
