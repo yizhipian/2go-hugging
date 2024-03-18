@@ -9,7 +9,7 @@ const NEZHA_KEY = process.env.NEZHA_KEY || '';
 const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'ct8.yizhipian.eu.org';                       // 仅能使用token，argo端口8080，cf后台设置需对应
 const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiZmI1MDA3Njg4NmNkZGRhODU3MjZiYzg4MTkxZjBiZTMiLCJ0IjoiYWY4NWNmMmEtMjE0Yi00ZWE5LWJkNDktY2MyZWYyMzI5YmJkIiwicyI6IllqRmpNekJsTXpndE5XRTBZeTAwTkRaa0xXSXlaRE10T1RSbU9EWmhNRFZpTWpNeCJ9';
 const CFIP = process.env.CFIP || 'government.se';
-const NAME = process.env.NAME || 'hug';
+const NAME = process.env.NAME || 'hugging';
 
 // root route
 app.get("/", function(req, res) {
