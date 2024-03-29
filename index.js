@@ -6,8 +6,8 @@ const UUID = process.env.UUID || '89640d08-b275-4dd3-9e75-f3094b36fa3b'; //若�
 const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nz.ziliaoku.eu.org';     
 const NEZHA_PORT = process.env.NEZHA_PORT || '443';                     // 哪吒端口为{443,8443,2096,2087,2083,2053}其中之一开启tls
 const NEZHA_KEY = process.env.NEZHA_KEY || 'onUumLaf32Hgo0dPrF';
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'hu.yizhipian.eu.org';                       // 仅能使用token，argo端口8080，cf后台设置需对应
-const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiZmI1MDA3Njg4NmNkZGRhODU3MjZiYzg4MTkxZjBiZTMiLCJ0IjoiYTFkOTlkZmMtNWIyZC00YWI2LWI0MjItYTU0YTI3MmVkMmQ5IiwicyI6IlpXSTBZbUV3Tm1RdFlUYzNaaTAwTlRKakxUZzRNamt0WlRBeVpEUTRZelkwT1RVNCJ9';
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'hug.mugongzi123.cf';                       // 仅能使用token，argo端口8080，cf后台设置需对应
+const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiZTQzZWQ0YjQ4ZmMwZDRkYTBiZjk2Yjk4ZmQ3YThmNTEiLCJ0IjoiNDQ2NTUwNzMtOTE3NC00ZjYyLWI2MjktZmM2Nzg3M2IzMzFkIiwicyI6Ik1XRmtZV1kxT1RndE56aGtNUzAwT0RneUxUa3hNbU10TWpoallUUTBaVGxpWkdFMSJ9';
 const CFIP = process.env.CFIP || 'government.se';
 const NAME = process.env.NAME || 'hugging';
 
